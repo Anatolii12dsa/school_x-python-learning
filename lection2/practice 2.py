@@ -1,19 +1,25 @@
-# numbers: list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 15]
-# for n in numbers:
+numbers: list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 15]
+for n in numbers:
     
-#     if n % 3 == 0:
-#         print(f'Число - {n} кратно трём')
-#     if n % 3 != 0:
-#         print(f'Число - {n} not кратно трём')
-# for n in numbers:
-#     if n % 3 == 0 and n % 5 ==0:
-#         print(f'число - {n} универсальное')
-#     elif n % 3 == 0:
-#         print(f'число - {n} делится  на 3')
-#     elif n % 5 == 0:
-#         print(f'число - {n} делится на 5')
-#     else:
-#         print(f'число - {n} никакое')
+    if n % 3 == 0:
+        print(f'Число - {n} кратно трём')
+        print(n)
+    if n % 3 != 0:
+        print(f'Число - {n} not кратно трём')
+        print(n)
+for n in numbers:
+    if n % 3 == 0 and n % 5 ==0:
+        print(f'число - {n} универсальное')
+        print(n)
+    elif n % 3 == 0:
+        print(f'число - {n} делится  на 3')
+        print(n)
+    elif n % 5 == 0:
+        print(f'число - {n} делится на 5')
+        print(n)
+    else:
+        print(f'число - {n} никакое')
+        print(n)
 
 
 # word: str = input('введите слово:')
@@ -27,8 +33,8 @@
 
 # print(vowel_count)
 
-n: int = int(input('N:'))
+# n: int = int(input('N:'))
  
-while n > 0:
-    print(n)
-    n = n + 1
+# while n > 0:
+#     print(n)
+#     n = n + 1

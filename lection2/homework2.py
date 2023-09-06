@@ -16,12 +16,13 @@
 # [-19, -18, -17, -16,  -10, 0, 20] -> ответ [4, 5, 6]
 # [1, 2, 3, 4] -> ответ "Не найдено"
 
-num: list = [1, 2, 3, 4, 5, 7]
-a = 1
+num: list = [1, 2, 3, 4]
 ind: list = []
-for i in num:
-    if num[a] - num[a-1] > 1:
-        ind.append(a)
+for i in range(len(num) - 1):
+    if num[i + 1] - num[i] > 1:
+        ind.append(i+1)
+    
+
 if len(ind) == 0:
     print('не найдено')
 elif len(ind) == 1:
