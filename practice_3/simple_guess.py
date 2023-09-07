@@ -14,14 +14,9 @@ def guess(N: int) -> int | str:
     for i in range(1, N+1):
         if i * i == N:
             return i
-    return 'no'
+    return 'Слишком сложно, не могу'
     
 print(guess(N))
-# result = guess(N)
-# if result != 0:
-#      print(result)
-# else:
-#      print('трудно, не могу')
 
 
 
