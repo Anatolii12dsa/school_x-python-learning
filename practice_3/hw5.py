@@ -12,9 +12,6 @@ minut = round(N / 60)
 hour = minut // 60
 minut2 = minut % 60
 print(N, '-->', f'{hour} час(а/ов) и {minut2} минут(а/ы)')
-# if minut >= 3600:
-#     hour = int(minut // 60)
-#     minut2 = int(minut % 60)
-#     print(hour, minut2)
+
 
 
